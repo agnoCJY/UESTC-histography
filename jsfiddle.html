@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://unpkg.com/vue"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+        <script src="https://unpkg.com/vue-chartjs/dist/vue-chartjs.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">    
+
+    </head>
+    <body>
+        <div id="app">
+
+            <div class="animated fadeIn" id="title">
+                <img id="title1" src="icons/资源_1.png">
+            </div>
+
+            <div  id="navi" class="animated fadeIn">
+                <img id="title2" src="icons/资源_2.png">
+            </div>
+
+                <table class="animated fadeIn" id = "hide">
+                    <tr>
+                        <td id="inforTitle">
+                                <div id="time">{{ informationTime }}<span id="year">年</span></div>
+                                {{ informationImage }} 
+                        </td>
+                        <td id="inforBlock">
+                            <img id="line" src="icons/line.jpg">
+                        </td>
+                        <td id="inforImage">
+                            <img id="setImageSrc">
+                        </td>
+                        <td id="inforText"> 
+                            {{ informationText }}
+                        </td>
+                    </tr>
+
+                </table>
+
+            <scatter-chart @on-receive="update"></scatter-chart>
+            <table id="naviTime"> 
+                <tr>
+                    <td>1955</td>
+                    <td>
+                        <img id="timeline" src="icons/资源_3.png">
+                    </td>
+                    <td>2019</td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            <br>
+
+          </div>
+    </body>
+    <script src = 'chart.js' charset="utf-8"></script>
+</html>
+

@@ -1,0 +1,113 @@
+font-face{
+  font-family: "华文隶书";
+  src:url("华文隶书.TTF");
+}
+
+@font-face{
+  font-family: "华文中宋";
+  src: url("STZHONGS.ttf");
+}
+
+#hide{
+    height: 300px;
+    padding-top: 50px;
+    padding-left: 100px;
+}
+
+#title{
+    justify-content: center;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    height: 360px;
+    letter-spacing: 7px;
+}
+
+#viceTitle{
+  padding-left: 800px;
+}
+
+#line{
+  height: 170px;
+}
+
+table{
+  padding-right: 130px;
+}
+
+td{
+  padding: 0 10px 0 10px;
+}
+
+#inforTitle{
+  width: 340px;
+  font-size: 35px;
+  text-align: right;
+  padding-right: 10px;
+  font-family: "华文中宋";
+
+}
+
+#inforBlock{
+  padding-left: 10px;
+}
+
+#inforText{
+  padding-left: 5px;
+  font-size: 25px;
+  line-height: 40px;
+  font-family: "华文中宋";
+
+}
+
+
+#title1{
+  width: 700px;
+}
+
+#title2{
+  height: 60px;
+  padding-left: 50px;
+}
+
+#navi{
+  background-color: #e6e6e6;
+}
+
+#time{
+  font-size: 45px;
+  font-family: "华文隶书";
+  color: #ababab;
+  height: 50px;
+}
+
+#timeline{
+  width: 1310px;
+}
+
+#scatter-chart{
+  height: 100px;
+}
+
+#naviTime{
+  font-family: "华文隶书";
+  padding-left: 130px;
+}
+
+
+#year{
+  font-family: "华文中宋";
+  color: #ababab;
+padding-left: 12px;
+font-size: 40px;
+}
+
+#inforImage{
+  width: 290px;
+  height: 169px;
+}
+
+#setImageSrc{
+  width: 100%;
+  height: 100%;
+}
