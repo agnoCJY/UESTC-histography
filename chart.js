@@ -13,7 +13,8 @@ var histoInformation = [{"item": 1, "xvalue": 0, "yvalue": 0, "year": 1955, "tit
   var informationTitle = new Array;
   var values = new Array;
   var data = new Array;
-  for (i=0;i<82;i++){
+  
+  for (i=0;i<536;i++){
     informationTime[i] = histoInformation[i].year;
     informationTitle[i] = histoInformation[i].title;
     values[i] = histoInformation[i].text;
@@ -91,10 +92,10 @@ extends: VueChartJs.Scatter,
     
                 layout:{
                 padding:{
-                    left:150,
+                    left:0,
                     right:0,
-                    top:60,
-                    bottom:10
+                    top:0,
+                    bottom:0
                 }}
     
     })
