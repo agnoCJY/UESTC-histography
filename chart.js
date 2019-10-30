@@ -83,16 +83,16 @@ extends: VueChartJs.Scatter,
         },
         elements:{
             point:{
-              radius:8,
-              hitRadius:8,
-              hoverRadius:7,
+              radius:6,
+              hitRadius:6,
+              hoverRadius:5,
               backgroundColor:'	rgba(84,150,255,1)',
             }
           },
     
                 layout:{
                 padding:{
-                    left:0,
+                    left:110,
                     right:0,
                     top:0,
                     bottom:0

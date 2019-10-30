@@ -9,7 +9,7 @@ font-face{
 }
 
 #hide{
-    height: 300px;
+    height: 200px;
     padding-top: 50px;
     padding-left: 100px;
 }
@@ -19,7 +19,7 @@ font-face{
     font-size: 50px;
     display: flex;
     align-items: center;
-    height: 360px;
+    height: 240px;
     letter-spacing: 7px;
 }
 
@@ -32,7 +32,7 @@ font-face{
 }
 
 table{
-  padding-right: 130px;
+  padding-right: 80px;
 }
 
 td{
@@ -66,7 +66,7 @@ td{
 }
 
 #title2{
-  height: 60px;
+  height: 40px;
   padding-left: 50px;
 }
 
@@ -82,16 +82,18 @@ td{
 }
 
 #timeline{
-  width: 1310px;
+  width: 970px;
 }
 
 #scatter-chart{
-  height: 100px;
+  height: 400px;
+  width: 2200px;
 }
 
 #naviTime{
   font-family: "华文隶书";
-  padding-left: 130px;
+  padding-left: 90px;
+  padding-bottom: 0px;
 }
 
 
@@ -110,4 +112,16 @@ font-size: 40px;
 #setImageSrc{
   width: 100%;
   height: 100%;
+}
+
+/* canvas{
+  width: 400px;
+} */
+
+/* #timeDot{
+  height: 400px;
+} */
+
+#app{
+  height: 350px;
 }
